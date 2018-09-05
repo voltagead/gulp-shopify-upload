@@ -1,7 +1,7 @@
 {
   "name": "gulp-shopify-upload",
-  "version": "2.0.0",
-  "description": "A tool to watch and upload files to Shopify for use in theme editing",
+  "version": "2.0.1",
+  "description": "A tool to watch and upload files to Shopify for use in theme editing. Forked to parameterize the apiBurstBucketSize.",
   "keywords": [
     "gulp",
     "shopify",
@@ -9,9 +9,9 @@
     "shopify-theme",
     "ablesense"
   ],
-  "homepage": "https://github.com/mikenorthorp/gulp-shopify-upload",
+  "homepage": "https://github.com/voltagead/gulp-shopify-upload",
   "bugs": {
-    "url": "https://github.com/mikenorthorp/gulp-shopify-upload/issues"
+    "url": "https://github.com/voltagead/gulp-shopify-upload/issues"
   },
   "author": {
     "name": "Able Sense Media",
@@ -27,12 +27,17 @@
       "name": "Roy Martin",
       "email": "roy@roy-martin.com",
       "url": "https://github.com/rmartin"
+    },
+    {
+      "name": "Winter King",
+      "email": "winterpk@gmail.com",
+      "url": "https://github.com/winterpk"
     }
   ],
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mikenorthorp/gulp-shopify-upload.git"
+    "url": "git://github.com/voltagead/gulp-shopify-upload.git"
   },
   "dependencies": {
     "isbinaryfile": "2.0.0",
@@ -55,8 +60,8 @@
   ],
   "maintainers": [
     {
-      "name": "mikenorthorp",
-      "email": "mike.northorp@gmail.com"
+      "name": "winterpk",
+      "email": "winterpk@gmail.com"
     }
   ],
   "scripts": {}
