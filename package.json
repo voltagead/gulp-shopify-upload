@@ -1,6 +1,6 @@
 {
   "name": "gulp-shopify-upload",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A tool to watch and upload files to Shopify for use in theme editing. Forked to parameterize the apiBurstBucketSize.",
   "keywords": [
     "gulp",
