@@ -177,7 +177,11 @@ shopify.upload = function (filepath, file, host, base, themeid) {
  * @param {options} object - named array of custom overrides.
  * @param {apiBurstBucketSize} object - named array of custom overrides.
  */
-function gulpShopifyUpload(apiKey, password, host, themeid, options, apiBurstBucketSize = 40) {
+function gulpShopifyUpload(apiKey, password, host, themeid, options, apiBurstBucketSize) {
+
+  if ( typeof apiBurstBucketSize === 'undefined' ) {
+    var apiBurstBucketSize = 40;
+  }
 
   // queue files provided in the stream for deployment
   var uploadedFileCount = 0,
