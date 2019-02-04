@@ -217,7 +217,7 @@ function gulpShopifyUpload(apiKey, password, host, themeid, options, apiBurstBuc
       } else {
         // Delay deployment based on position in the array to deploy 2 files per second
         // after hitting the initial burst bucket limit size
-        setTimeout(shopify.upload.bind(null, file.path, file, host, '', themeid), ((uploadedFileCount - apiBurstBucketSize) / 2) * 1000);
+        setTimeout(shopify.upload.bind(null, file.path, file, host, '', themeid), ((uploadedFileCount - apiBurstBucketSize) / 2) * 3000);
       }
       uploadedFileCount++;
     }
